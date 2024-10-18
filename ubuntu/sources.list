@@ -1,18 +1,18 @@
 # 来源：https://developer.aliyun.com/mirror/ubuntu
-# 适用版本：18.04 LTS
+# 适用版本：ubuntu 24.04
 # 说明：基于 Ubuntu 的软件配置文件 /etc/apt/sources.list 的 Aliyun 的软件源镜像配置。注意：在替换前对原有配置进行备份。
 
-deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu/ noble main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ noble main restricted universe multiverse
 
-deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu/ noble-security main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ noble-security main restricted universe multiverse
 
-deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu/ noble-updates main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ noble-updates main restricted universe multiverse
 
-deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+# deb https://mirrors.aliyun.com/ubuntu/ noble-proposed main restricted universe multiverse
+# deb-src https://mirrors.aliyun.com/ubuntu/ noble-proposed main restricted universe multiverse
 
-deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu/ noble-backports main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ noble-backports main restricted universe multiverse
